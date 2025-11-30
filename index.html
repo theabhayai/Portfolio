@@ -1,20 +1,24 @@
+<!-- SMART & STRUCTURED PORTFOLIO TEMPLATE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abhay Kumar - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <link href="abc.ttf"/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- NAVIGATION TOGGLE -->
   <nav>
     <div class="two-line-toggle" id="twoLineToggle">
       <span class="two-line-big"></span>
       <span class="two-line-small"></span>
     </div>
-     </nav>
+  </nav>
 
+  <!-- SIDE PANEL -->
   <div class="panel" id="navPanel">
     <div class="links">
       <a href="#career">Career</a>
@@ -29,86 +33,110 @@
     </div>
     <p>Select Theme:</p>
     <div class="theme-options">
-    <div class="theme-swatch" data-theme="red"></div>
-    <div class="theme-swatch" data-theme="green"></div>
-    <div class="theme-swatch" data-theme="black"></div>
-    <div class="theme-swatch" data-theme="gold"></div>
-    <div class="theme-swatch" data-theme="blue"></div>
-    <div class="theme-swatch" data-theme="purple"></div>
-    <div class="theme-swatch" data-theme="teal"></div>
-    <div class="theme-swatch" data-theme="rosegold"></div>
-  </div>
+      <div class="theme-swatch" data-theme="red"></div>
+      <div class="theme-swatch" data-theme="green"></div>
+      <div class="theme-swatch" data-theme="black"></div>
+      <div class="theme-swatch" data-theme="gold"></div>
+      <div class="theme-swatch" data-theme="blue"></div>
+      <div class="theme-swatch" data-theme="purple"></div>
+      <div class="theme-swatch" data-theme="teal"></div>
+      <div class="theme-swatch" data-theme="rosegold"></div>
     </div>
+  </div>
 
+  <!-- MAIN LAYOUT -->
   <div class="container">
+    <!-- PROFILE SIDEBAR -->
     <aside class="profile">
-      <div>
-        <img class="profile-img" src="https://ik.imagekit.io/rv0oq2tl2/Abs.png?updatedAt=1756230855599" alt="Abhay Kumar">
-        <h1>ABHAY KUMAR</h1>
-        <h2>Engineer · Creator · Student</h2>
-        <p style="font-size: 14px;">Passionate about AI, robotics & futuristic tech 🚀</p>
+      <div class="profile-header">
+        <img class="profile-img" src="https://ik.imagekit.io/rv0oq2tl2/Abs.png?updatedAt=1756230855599" alt="Abhay Kumar" />
+        <h1><span class="dot-font">ABHAY KUMAR</span></h1><br><br>
+        <h2>ARTIFICIAL INTELLIGENCE ENGINEERING</h2>
       </div>
+     <div class="mini-quote">
+  <p>“Building the future with code.”</p>
+  <div class="pulse-line"></div>
+</div>
       <div class="profile-socials">
-        <a href="mailto:abhaykumar76005@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"> E-Mail</a>
-        <a href="https://in.linkedin.com/in/abhaykumar0705" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png"> LinkedIn</a>
-        <a href="https://github.com/abhaydsi" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png"> GitHub</a>
+        <a href="mailto:abhaykumar76005@gmail.com" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" /> E-Mail </a>
+        <a href="https://in.linkedin.com/in/abhaykumar0705" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" /> LinkedIn </a>
+        <a href="https://github.com/abhaydsi" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" /> GitHub </a>
       </div>
     </aside>
 
+    <!-- PAGE CONTENT -->
     <div class="content">
-      <section id="career"><h3 class="section-title">Career Objective</h3><p>To leverage my skills in AI & ML, software development, and problem-solving to contribute to cutting-edge technology projects and continuously grow as an engineer.</p></section>
+      <!-- CAREER OBJECTIVE -->
+      <section id="career" class="section-block">
+        <h3 class="section-title">Career Objective</h3>
+        <p>To leverage my skills in AI, ML, and modern software engineering to contribute to groundbreaking technology and grow as an engineer.</p>
+      </section>
 
-      <section id="education"><h3 class="section-title">Education</h3><ul>
-        <li><b>B.Tech</b> – Computer Science & Engineering (AI & ML), School Of Management Sciences,Lucknow, 2023-2027 – Present</li>
-        <li><b>Intermediate</b> – Science (PCM), Bapu Krishak Intermediate Collage,Bhatparrani,Deoria Uttar Pradesh, 2022-2023</li>
-        <li><b>Matriculation</b> – I.B.S Intermediate Collage,Bhatparrani,Deoria Uttar Pradesh, 2020-2021</li>
-      </ul></section>
+      <!-- EDUCATION -->
+      <section id="education" class="section-block">
+        <h3 class="section-title">Education</h3>
+        <ul>
+          <li><b>B.Tech</b> – CSE (AI & ML), School Of Management Sciences, Lucknow (2023–2027)</li>
+          <li><b>Intermediate</b> – PCM, Bapu Krishak Intermediate College, Deoria (2022–2023)</li>
+          <li><b>Matriculation</b> – I.B.S Intermediate College, Deoria (2020–2021)</li>
+        </ul>
+      </section>
 
-      <section id="projects"><h3 class="section-title">Projects</h3><ul>
-        <li>🤖 <b>Telegram GPT Bot</b> – AI-powered chatbot integrating Gemini API with Telegram.</li>
-        <li>🖥️ </b>Portfolio Website</b> – Fully responsive and theme-switching personal site.</li>
-        <li>📊 <b>Data Visualizer</b> – Python tool for data analysis and visualization.</li>
-      </ul></section>
+      <!-- PROJECTS -->
+      <section id="projects" class="section-block">
+        <h3 class="section-title">Projects</h3>
+        <ul>
+          <li>🤖 <b>Telegram GPT Bot</b> – AI chatbot using Gemini API.</li>
+          <li>🖥️ <b>Portfolio Website</b> – Responsive UI with dynamic themes.</li>
+          <li>📊 <b>Data Visualizer</b> – Python-based analysis & plotting tool.</li>
+        </ul>
+      </section>
 
-      <section id="internships"><h3 class="section-title">Internships</h3><ul>
-        <li><b>Alfido</b> – Web Developer Intern (Built responsive front-end components)</li>
-      </ul></section>
+      <!-- INTERNSHIPS -->
+      <section id="internships" class="section-block">
+        <h3 class="section-title">Internships</h3>
+        <ul>
+          <li><b>Alfido</b> – Web Developer Intern (Front-end modules & UI components)</li>
+        </ul>
+      </section>
 
-      <section id="skills"><h3 class="section-title">Skills</h3><ul>
-        <li>Programming: Python, C++, Java, JavaScript</li>
-        <li>Frameworks: React, Node.js, Flask</li>
-        <li>Tools: Git, Replit, Linux, Firebase</li>
-      </ul></section>
+      <!-- SKILLS -->
+      <section id="skills" class="section-block">
+        <h3 class="section-title">Skills</h3>
+        <ul>
+          <li>Programming: Python, C++, Java, JavaScript</li>
+          <li>Frameworks: React, Node.js, Flask</li>
+          <li>Tools: Git, Linux, Firebase, Replit</li>
+        </ul>
+      </section>
 
-      <section id="certifications"><h3 class="section-title">Certifications</h3><ul>
-        <li>Cyber Security – Google Cloud</li>
-        <li>IBM Cloud Computing – Create chatbot</li>
-        <li>Web Development Bootcamp – Udemy</li>
-      </ul></section>
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="section-block">
+        <h3 class="section-title">Certifications</h3>
+        <ul>
+          <li>Cyber Security – Google Cloud</li>
+          <li>IBM Cloud Computing – Chatbot Development</li>
+          <li>Web Development Bootcamp – Udemy</li>
+        </ul>
+      </section>
 
-      <!--  <section id="achievements"><h3 class="section-title">Achievements</h3><ul> 
-        <li>📜 NA</li>
-      </ul></section> 
-
-      <section id="extra"><h3 class="section-title">Extra-Curricular</h3><ul>
-        <li>🤝 Member of Engineer Vision Club</li>
-       </ul></section> -->
-
-      <section id="socials"><h3 class="section-title">Social Media</h3>
-        <p>Stay connected with me on my social platforms:</p>
-         <div class="socials">
-        <a href="https://x.com/abhaykushwaha__" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"> Twitter/X</a>  
-        <a href="https://youtube.com/@official.abhaykushwaha" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"> YouTube</a> 
-        <a href="https://t.me/abhaykushwaha5" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram"> Telegram</a>  
-        <a href="https://www.facebook.com/abhay.kushwaha.05" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"> Facebook</a>             
-        <a href="https://www.instagram.com/abhaykushwaha._" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"> Instagram</a>  
-        <a href="https://whatsapp.com/channel/0029Vb2mURZ8V0tirW37bk3m" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"> WhatsApp</a>  
-       </div>
+      <!-- SOCIAL MEDIA -->
+      <section id="socials" class="section-block">
+        <h3 class="section-title">Social Media</h3>
+        <p>Connect with me across platforms:</p>
+        <div class="socials">
+          <a href="https://x.com/abhaykushwaha__" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" /> X/Twitter </a>
+          <a href="https://youtube.com/@official.abhaykushwaha" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" /> YouTube </a>
+          <a href="https://t.me/abhaykushwaha5" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" /> Telegram </a>
+          <a href="https://www.facebook.com/abhay.kushwaha.05" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" /> Facebook </a>
+          <a href="https://www.instagram.com/abhaykushwaha._" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" /> Instagram </a>
+          <a href="https://whatsapp.com/channel/0029Vb2mURZ8V0tirW37bk3m" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" /> WhatsApp </a>
+        </div>
       </section>
     </div>
   </div>
 
-  <footer>© 2025 Abhay Kumar | Developed By Abhay</footer>
+  <footer>© 2025 Abhay Kumar • Designed & Developed by Abhay</footer>
 
   <script src="script.js"></script>
 </body>
