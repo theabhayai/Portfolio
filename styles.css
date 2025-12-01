@@ -132,7 +132,6 @@ body {
   top: 50px;
   left: 20px;
   width: 300px;
-  height: 1100px;
   background: var(--card-bg);
   padding: 1.5rem;
   border-radius: 15px;
@@ -228,7 +227,6 @@ body {
 .section-block {
   background: var(--card-bg);
   padding: 2rem;
-      width:500px;
   margin-bottom: 2rem;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -314,7 +312,6 @@ button:hover, .card:hover {
 footer {
   text-align: center;
     background: blanchedalmond;
-    width: 875px;
     height: 5px;
   padding: 0.5px;
   opacity: 0.7;
