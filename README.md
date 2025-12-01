@@ -1,3 +1,3 @@
 # Portfolio-
 Simple portfolio design using html, css and javascript.
-<href ="theabhayai.github.io/Portfolio/" />
+[Click here for preview] (https://www.theabhayai.github.io/Portfolio/)
