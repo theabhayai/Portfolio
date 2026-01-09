@@ -91,7 +91,23 @@ body {
   .header-content { flex-direction: column; text-align: center; }
   .contact-links { justify-content: center; flex-wrap: wrap; }
   .dashboard-grid { grid-template-columns: 7fr; }
-  .col-2, .col-1,.col-3,col-4,col-5,col-6,col-7, .full-width { grid-column: span 1; }
-  .social-grid { grid-template-columns: 7fr 1fr; }
-}
- 
+  .col-2, .col-1,.col-3,.col-4,.col-5,.col-6,.col-7, .full-width { grid-column: span 1; }
+  @media (max-width: 768px) {
+  .profile-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  }
+  @media (max-width: 600px) {
+  .panel {
+    width: 220px;
+  }
+  }
